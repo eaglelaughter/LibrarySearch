@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.menutest03.MainActivity" >
+
+    <item
+        android:id="@+id/LogIn"
+        android:orderInCategory="100"
+        android:title="@string/登陆" />
+
+    <item
+        android:id="@+id/Setting"
+        android:orderInCategory="100"
+        android:title="@string/设置" />
+
+    <item
+        android:id="@+id/Test"
+        android:orderInCategory="100"
+        android:title="@string/测试" />
+
+</menu>
